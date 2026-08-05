@@ -1,0 +1,12 @@
+user_input=input("Enter numbers separated by space: ")
+x=[int(i) for i in user_input.split()]
+minimum=min(x)
+maximum=max(x)
+total=sum(x)
+average=total/len(x)
+sorted_list=sorted(x)
+print("Minimum:", minimum)
+print("Maximum:", maximum)
+print("Total:", total)
+print("Average:", average)
+print("Sorted List:", sorted_list)
