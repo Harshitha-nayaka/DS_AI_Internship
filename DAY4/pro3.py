@@ -1,4 +1,4 @@
 import math
-import random
-print(math.sqrt(16))
-print(random.randint(1, 10))
+num=float(input("Enter a number: "))
+result=int(math.cbrt(num))
+print("cube_root",result)
