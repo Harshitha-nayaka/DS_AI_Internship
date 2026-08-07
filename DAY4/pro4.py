@@ -1,3 +1,3 @@
 import random
-number = random.randint(1, 10)
+number =float( random.randint(1, 10))
 print("Random number:", number)
